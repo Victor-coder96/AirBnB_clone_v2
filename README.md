@@ -339,7 +339,7 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 <br>
 
-## Author:
+## Authors:
 ### Gideon Selorm Attakpah: [GitHub](https://github.com/iamgideonchrist) - [Twitter](https://twitter.com/iamgideonchrist) - [Linkedin](https://www.linkedin.com/in/iamgideonchrist/)
 
 ### Victor Esionyeaba: [GitHub](https://github.com/Victor-coder96) - [Email](vesionyeaba@gmail.com)
