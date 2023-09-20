@@ -5,10 +5,12 @@ This project was done during **ALX SE Studies** at **ALX School**. It is the con
 ## Tech
 ### Python Scripts
 * Used editors: `vi`, `vim`, and `emacs`
-* All files are interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.8.5)
+* All files are interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.8.5, version 3.4.0 for Deploy static & version 3.4.3 for Web framework)
 * All files end with a new line
 * The first line of all files is exactly `#!/usr/bin/python3`
 * A `README.md` file at the root of the folder of the project
+* All code uses the `PEP 8` style (version `1.7.*`)
+* Fabric file works with `Fabric 3` version `1.14.post1`
 * All codes use the pycodestyle (version `2.8.*`)
 * All files are executable
 * Length of files is tested using `wc`
@@ -21,7 +23,7 @@ This project was done during **ALX SE Studies** at **ALX School**. It is the con
 * Used editors: `vi`, `vim`, and `emacs`
 * All files end with a new line
 * All test files are inside a folder `tests`
-* <li>Used the <a href="/rltoken/g0tzN6ea1hWCj5OF99HB9w" title="unittest module" target="_blank">unittest module</a> </li>
+* You have to use the `unittest module`
 * All test files are Python files (extension: `.py`)
 * All test files and folders starts by `test_`
 * File organization in the tests folder are the same as project: ex: for `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
@@ -30,6 +32,7 @@ This project was done during **ALX SE Studies** at **ALX School**. It is the con
 * All modules have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
 * All classes have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
 * All functions (inside and outside a class) have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
+* No edge cases was missed
 
 ### SQL Scripts
 * Used editors: `vi`, `vim`, and `emacs`
@@ -41,6 +44,28 @@ This project was done during **ALX SE Studies** at **ALX School**. It is the con
 * All SQL keywords are in uppercase (`SELECT`, `WHERE`…)
 * A `README.md` file at the root of the folder of the project
 * Length of files is tested using `wc`
+
+### Bash Scripts
+* Used editors: `vi`, `vim`, and `emacs`
+* All files are interpreted on Ubuntu 20.04 LTS
+* All files end with a new line
+* A `README.md` file at the root of the folder of the project
+* All Bash script files are executable
+* Bash scripts passes `Shellcheck` (version `0.3.3-1~ubuntu20.04.1` via `apt-get`) without any errors
+* The first line of all Bash scripts are exactly `#!/usr/bin/env bash`
+* The second line of all Bash scripts are comment explaining what is the script doing
+
+### HTML/CSS Files
+* Used editors: `vi`, `vim`, and `emacs`
+* All files end with a new line
+* A `README.md` file at the root of the folder of the project
+* Codes are W3C compliant and validated with `W3C-Validator` (except for jinja template)
+* All CSS files are in the `styles` folder
+* All images are in the `images` folder
+* No use of `!important` or `id` (`#...` in the CSS file)
+* All tags are in uppercase
+* Current screenshots was done on Chrome `56.0.2924.87`.
+* No cross browsers
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
